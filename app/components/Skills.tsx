@@ -36,7 +36,7 @@ const skills = [
 const Skills = () => {
   return (
     <div className="space-y-5 flex flex-col items-center">
-      <h2 className="text-lg sm:text-xl md:text-2xl text-zinc-300 font-semibold">
+      <h2 className="sm:text-xl md:text-2xl text-zinc-300 font-semibold">
         Skills & Tools
       </h2>
       <div className="flex flex-wrap space-y-6 gap-4 max-w-[500px]  justify-center">

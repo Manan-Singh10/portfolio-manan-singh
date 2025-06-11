@@ -1,6 +1,8 @@
 import Learning from "./components/Learning";
 import Intro from "./components/Intro";
 import Skills from "./components/Skills";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
 export default function Home() {
   return (
@@ -8,6 +10,11 @@ export default function Home() {
       <Intro />
       <Skills />
       <Learning />
+      <div>
+        <Link href="/projects" className="flex">
+          See some of my projects <ArrowRight />
+        </Link>
+      </div>
     </div>
   );
 }
