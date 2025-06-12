@@ -13,6 +13,7 @@ const ImageCard = () => {
         alt="manan-photo"
         width={200}
         height={200}
+        priority
         sizes="(max-width: 640px) 100px, (max-width: 724px) 140px, (max-width: 1024px) 160px, 200px"
         className="rounded-full"
       />

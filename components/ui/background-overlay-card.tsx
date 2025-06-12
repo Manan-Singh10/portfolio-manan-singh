@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export function Card({
   imgURL,
@@ -14,6 +14,11 @@ export function Card({
   description: string;
 }) {
   const [hover, setHover] = useState(false);
+  const [hydrated, setHydrated] = useState(false);
+
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
 
   return (
     <div className="max-w-xl bg-gray-900/20">
@@ -40,7 +45,7 @@ export function Card({
       >
         <div
           className={`relative z-50 text-center ${
-            hover ? "" : "backdrop-blur-xl bg-black/20"
+            hydrated && !hover ? "backdrop-blur-xl bg-black/20" : ""
           }`}
         >
           <h2 className="font-bold text-xl md:text-3xl text-gray-50">
