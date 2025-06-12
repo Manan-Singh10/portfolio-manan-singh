@@ -45,7 +45,7 @@ export function Card({
       >
         <div
           className={`relative z-50 text-center ${
-            hydrated && !hover ? "backdrop-blur-xl bg-black/20" : ""
+            hydrated && !hover ? "bg-black/40" : ""
           }`}
         >
           <h2 className="font-bold text-xl md:text-3xl text-gray-50">
