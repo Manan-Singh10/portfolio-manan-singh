@@ -30,6 +30,7 @@ const ProjectContent = ({ description, imageURLs, demoLink }: Props) => {
         {imageURLs.map((url) => (
           <Image
             className="rounded-xl"
+            loading="lazy"
             key={url}
             src={url}
             width={500}
