@@ -14,7 +14,7 @@
 }
 
 @theme inline {
-  --animate-aurora: aurora 150s linear infinite;
+  --animate-aurora: aurora 300s linear infinite;
   @keyframes aurora {
     from {
       background-position: 50% 50%, 50% 50%;

@@ -1,4 +1,4 @@
-// import { FlipWords } from "@/components/ui/flip-words";
+import { FlipWords } from "@/components/ui/flip-words";
 
 const DescriptionText = () => {
   return (
@@ -9,10 +9,10 @@ const DescriptionText = () => {
       </div>
       <div>
         I build
-        {/* <FlipWords
+        <FlipWords
           className="font-semibold"
           words={["clean", "performant", "user-focused"]}
-        /> */}
+        />
         web applications and
       </div>
       <div>specialize in front-end development</div>
