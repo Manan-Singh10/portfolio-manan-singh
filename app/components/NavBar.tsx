@@ -14,7 +14,7 @@ const NavBar = () => {
   const currentPath = usePathname();
 
   return (
-    <nav className="bg-white/10 backdrop-blur-sm px-5 py-2 m-5 rounded-xl sticky top-5">
+    <nav className="bg-white/10 backdrop-blur-sm px-5 py-2 m-5 rounded-xl sticky z-1000 top-5">
       <ul className="flex gap-8">
         {links.map((link) => (
           <li
