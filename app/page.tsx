@@ -1,4 +1,3 @@
-import Learning from "./components/Learning";
 import Intro from "./components/Intro";
 import Skills from "./components/Skills";
 import Link from "next/link";
