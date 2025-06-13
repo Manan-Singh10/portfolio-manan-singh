@@ -9,7 +9,7 @@ const info = [
     href: "https://github.com/Manan-Singh10",
   },
   {
-    label: "LinkdIn",
+    label: "LinkedIn",
     address: "manan-singh-7b82b1185",
     href: "https://www.linkedin.com/in/manan-singh-7b82b1185/",
   },
